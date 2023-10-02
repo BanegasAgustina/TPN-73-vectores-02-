@@ -21,7 +21,7 @@ int main() {
    
     vector<int> A(10), B(10);
 
-    // Llenar los vectores con números aleatorios menores a 1500
+   
     for(int i = 0; i < 10; ++i) {
         A[i] = rand() % 1500;
         B[i] = rand() % 1500;
@@ -29,7 +29,7 @@ int main() {
    
     vector<int> C = SumarVectores(A, B);
    
-    // Mostrar los vectores
+ 
     cout << "Vector A: ";
     imprimir(A);
     cout << "Vector B: ";
